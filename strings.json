@@ -1,0 +1,34 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DSBmobile Login",
+        "description": "Gib deine DSBmobile Zugangsdaten ein.",
+        "data": {
+          "username": "Benutzer-ID",
+          "password": "Passwort",
+          "class_name": "Klasse(n) (z.B. 08b oder 08b, 05a — kommagetrennt, optional)"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Ungültige Zugangsdaten",
+      "unknown": "Unbekannter Fehler"
+    },
+    "abort": {
+      "already_configured": "Dieses Konto ist bereits konfiguriert."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "DSBmobile Einstellungen",
+        "data": {
+          "class_name": "Klasse(n) (z.B. 08b oder 08b, 05a — kommagetrennt, leer = alle)",
+          "calendar_types": "Zusätzliche Kalender nach Art"
+        },
+        "description": "Wähle die zusätzlichen Arten-Kalender je Klasse. Der bisherige Gesamtkalender bleibt immer erhalten. Ohne Auswahl werden keine zusätzlichen Kalender angelegt. Beim Abwählen werden die betreffenden Kalender-Entitäten entfernt."
+      }
+    }
+  }
+}

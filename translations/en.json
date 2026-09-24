@@ -1,0 +1,34 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DSBmobile Login",
+        "description": "Enter your DSBmobile credentials.",
+        "data": {
+          "username": "User ID",
+          "password": "Password",
+          "class_name": "Class(es) (e.g. 08b or 08b, 05a — comma separated, optional)"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid credentials",
+      "unknown": "Unknown error"
+    },
+    "abort": {
+      "already_configured": "This account is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "DSBmobile Settings",
+        "data": {
+          "class_name": "Class(es) (e.g. 08b or 08b, 05a — comma separated, empty = all)",
+          "calendar_types": "Additional calendars by type"
+        },
+        "description": "Select the additional types to create for each class. The existing total calendar always remains. An empty selection creates no additional calendars. Deselecting a type removes its calendar entities."
+      }
+    }
+  }
+}
